@@ -5,9 +5,9 @@
 #
 # print(list_)
 
-list_ = ['one', 'two', 'three']
-for i in range(len(list_)):
-    print(list_[i]) # Кажый элемент списка
+# list_ = ['one', 'two', 'three']
+# for i in range(len(list_)):
+#     print(list_[i]) # Кажый элемент списка
 
 for i in range(1, 11): #start, stop, step
     for j in range(1, 11):
