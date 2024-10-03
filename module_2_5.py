@@ -1,9 +1,9 @@
 def get_matrix(n, m, value):
     matrix = []
     for i in range(n):  # Перебор столбцов
-        matrix.append([])
+        matrix.append([]) #Добавляет столбец
         for j in range(m):  # Перебор строк
-            matrix[i].append(value)
+            matrix[i].append(value) #Добавляет элемент из VALUE в строку.
     return matrix
 
 
