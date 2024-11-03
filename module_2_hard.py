@@ -2,11 +2,10 @@ def find_password(n):
     password = ''  # Пустая строка для хранения результата
 
     # Перебираем все возможные пары чисел от 1 до n
-    for i in range(1, n):
+    for i in range(1, n): # Пределы числа i
         for j in range(i + 1, n + 1): # Пределы числа J
             if n % (i + j) == 0:  # Проверяем кратность числа n сумме пары
-                password += str(i) + str(
-                    j)  # Добавляем пару в строку результата
+                password += str(i) + str(j)  # Добавляем пару в строку результата
 
     return password
 
